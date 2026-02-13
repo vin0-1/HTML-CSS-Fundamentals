@@ -1,0 +1,128 @@
+html {
+    font-family: Helvetica;
+    background-color: greenyellow;
+}
+
+.sunflower-1 {
+    
+    position: fixed;
+    top: -150px;
+    z-index: 100;
+ 
+}
+
+.sunflower-1 img {
+    position: relative;
+    right: 300px;
+}
+
+.sunflower-2 {
+    z-index: 100;
+    position: fixed;
+    bottom: -160px;
+    right: -300px;
+}
+
+
+
+
+
+.container {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 50px 50px;
+    position:relative;
+    background-color: #f9fc52e7;
+    border: 3px solid #05ac3d;
+    border-radius: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+/* header */
+.header {
+    text-align: center;
+}
+
+.main-tittle{
+    font-size: 40px;
+}
+
+.main-paragraph {
+    font-style: italic;
+
+}
+
+/* imagem principal */
+.featured-image {
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.featured-image img {
+    height: 400px;
+    border-radius: 10px;
+}
+
+/* biografia */
+.biography-container {
+    padding: 25px 0px;
+    margin: 25px 0px;
+    border-top: 1px dashed #05ac3d;
+    border-bottom:1px dashed #05ac3d;
+}
+
+/* quotes */
+.quotes-container {
+    background-color: #05ac3d;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.quotes-container blockquote {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.quotes-container p {
+    font-style: italic;
+
+}
+
+/* curiosidades */
+.curiosities-container {
+    padding: 25px 0px;
+    margin: 25px 0px;
+    border-top: 1px dashed #05ac3d;
+    border-bottom:1px dashed #05ac3d;
+}
+
+.curiosities-container li{
+    position: relative;
+    height: 50px;
+}
+
+/* Imagem bold */
+.img-bold {
+    font-weight: bold;
+    text-align: center;
+    padding: 25px 0px;
+    margin: 25px 0px;
+}
+
+.img-bold img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* mais informaçoes */
+.moreinfo-container {
+    position:absolute;
+    bottom:1px;
+    left: 10px;
+}
